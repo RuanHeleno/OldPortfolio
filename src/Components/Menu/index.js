@@ -11,8 +11,8 @@ export default function Menu() {
 
     return (
         <StyledMenu className="Menu">
-            <Buttons/>
             <Photo />
+            <Buttons/>
             <ThemeContext.Consumer>
                 {({ changeTheme }) => (
                     <ToggleDark
