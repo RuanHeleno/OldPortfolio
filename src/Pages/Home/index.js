@@ -29,7 +29,7 @@ export default function Home() {
           {text2}
         </StyledSpan>
         <StyledIcons 
-          onMouseOver={() => onChange('Larry', '1 ano')}
+          onMouseOver={() => onChange('Linguagem de marcação utilizada pra criação de páginas Web', '1 ano')}
           onMouseLeave={() => onChange(initialText, initialText2)}
         />
       </StyledDiv>
