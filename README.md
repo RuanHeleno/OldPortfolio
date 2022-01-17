@@ -36,7 +36,6 @@ O site é composto por 4 seções diferentes:
             src="https://github.com/RuanHeleno.png" 
             width="100px;" 
             alt="Foto do Ruan Heleno no GitHub" 
-            style="border-radius: 100px;"
         /> <br />
         <sub> <b>Ruan Heleno</b> </sub>
       </a>
