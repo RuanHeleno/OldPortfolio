@@ -1,12 +1,12 @@
 <h1 align="center">
-  📰<br>Meu Portfólio
+  :memo:<br>Meu Portfólio
 </h1>
 
 <!-- ![Resultado final do projeto](Artwork/Images/preview.png) -->
 
 <h4 align="center"><a href="https://ruanheleno.github.io/inicio/">Clique aqui ver meu portfolio</a></h4>
 
-## 📚 Seções
+## :notebook: Seções
 
 O site é composto por 4 seções diferentes:
 
@@ -17,7 +17,7 @@ O site é composto por 4 seções diferentes:
 
 ---
 
-## 💼 Tecnologias utilizadas
+## :computer: Tecnologias utilizadas
 
 - HTM5;
 - CSS3;
