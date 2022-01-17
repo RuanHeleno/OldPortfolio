@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import fotoPerfil from '../../Artwork/Images/EuSerio.jpg'
+import fotoPerfil from '../../Assets/Images/EuSerio.jpg'
 
 export const StyledImage = styled.img`
     width: 70%;

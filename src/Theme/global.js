@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-import background from "../Artwork/Images/BackgroundHomeNight.jpg";
+import background from "../Assets/Images/BackgroundHomeNight.jpg";
  
 const GlobalStyle = createGlobalStyle`
   *,

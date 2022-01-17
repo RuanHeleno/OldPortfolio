@@ -1,3 +1,7 @@
+---
+permalink: /public/index.html
+---
+
 <h1 align="center">
   :memo:<br>Meu Portfólio
 </h1>

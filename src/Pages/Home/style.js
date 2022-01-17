@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import background from "../../Artwork/Images/BackgroundHome.jpg";
+import background from "../../Assets/Images/BackgroundHome.jpg";
 
-import html5I from '../../Artwork/Images/Icons/html5.png'
+import html5I from '../../Assets/Images/Icons/html5.png'
 
 export const StyledHome = styled.div`
     background: url(${background}) no-repeat center center fixed;

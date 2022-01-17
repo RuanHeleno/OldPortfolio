@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import background from "../../Artwork/Images/BackgroundHome.jpg";
+import background from "../../Assets/Images/BackgroundHome.jpg";
 
 export const StyledPages = styled.div`
     background: url() no-repeat center center fixed;
