@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import GlobalStyle from './Theme/global';
+import { BrowserRouter as Router } from 'react-router-dom';
+import { Container, Row, Col } from 'react-grid-system';
+
+import ThemeContextWrapper from './Theme/themeContextWrapper';
+import Menu from './Components/Menu';
+import RoutesNav from './Routes';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <ThemeContextWrapper>
+          <GlobalStyle />
+          <Container fluid style={{paddingRight: "-15px;", paddingLeft: "-15px;"}}>
+            <Row style={{paddingRight: "-15px;", paddingLeft: "-15px;"}}>
+              <Col style={{paddingRight: "-15px;", paddingLeft: "-15px;"}}> <Menu /> </Col>
+              <Col style={{paddingRight: "-15px;", paddingLeft: "-15px;"}}> <RoutesNav /> </Col >
+            </Row>
+          </Container>
+        </ThemeContextWrapper>
+    </Router>
   );
 }
 
