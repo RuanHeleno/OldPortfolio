@@ -4,7 +4,7 @@
 
 <!-- ![Resultado final do projeto](Artwork/Images/preview.png) -->
 
-<h4 align="center"><a href="https://ruanheleno.github.io/inicio/">Clique aqui ver meu portfolio</a></h4>
+<h4 align="center"><a href="https://ruanheleno.github.io/">Clique aqui ver meu portfolio</a></h4>
 
 ## :notebook: Seções
 

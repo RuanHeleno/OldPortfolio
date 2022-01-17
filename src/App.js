@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import GlobalStyle from './Theme/global';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Container, Row, Col } from 'react-grid-system';

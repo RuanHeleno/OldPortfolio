@@ -9,7 +9,7 @@ import Contact from './Pages/Contact';
 export default function RoutesNav() {
     return (
         <Routes>
-            <Route path="/inicio" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Projects" element={<Projects />} />
             <Route path="/AboutMe" element={<AboutMe />} />
             <Route path="/Contact" element={<Contact />} />

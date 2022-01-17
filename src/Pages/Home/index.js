@@ -21,7 +21,7 @@ export default function Home() {
 
   return (
     <StyledHome className="BackgroundHome">
-      <StyledHead>Sejam Bem-Vindos!</StyledHead>
+      <StyledHead className="Welcome">Sejam Bem-Vindos!</StyledHead>
       <StyledDiv>
         <StyledSpan className="Knowledge">
           {text}
