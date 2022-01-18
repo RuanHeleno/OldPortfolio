@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.dc28d363.chunk.js",
-    "main.js.map": "/static/js/main.dc28d363.chunk.js.map",
+    "main.js": "/static/js/main.da406fc9.chunk.js",
+    "main.js.map": "/static/js/main.da406fc9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5db9d757.js",
     "runtime-main.js.map": "/static/js/runtime-main.5db9d757.js.map",
     "static/css/2.a1596f27.chunk.css": "/static/css/2.a1596f27.chunk.css",
-    "static/js/2.a4887791.chunk.js": "/static/js/2.a4887791.chunk.js",
-    "static/js/2.a4887791.chunk.js.map": "/static/js/2.a4887791.chunk.js.map",
+    "static/js/2.0185375a.chunk.js": "/static/js/2.0185375a.chunk.js",
+    "static/js/2.0185375a.chunk.js.map": "/static/js/2.0185375a.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/static/css/2.a1596f27.chunk.css.map",
-    "static/js/2.a4887791.chunk.js.LICENSE.txt": "/static/js/2.a4887791.chunk.js.LICENSE.txt",
+    "static/js/2.0185375a.chunk.js.LICENSE.txt": "/static/js/2.0185375a.chunk.js.LICENSE.txt",
     "static/media/BackgroundHome.9519a563.jpg": "/static/media/BackgroundHome.9519a563.jpg",
     "static/media/EuSerio.792aa697.jpg": "/static/media/EuSerio.792aa697.jpg",
     "static/media/html5.8ed1b8c8.png": "/static/media/html5.8ed1b8c8.png"
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.5db9d757.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.a4887791.chunk.js",
-    "static/js/main.dc28d363.chunk.js"
+    "static/js/2.0185375a.chunk.js",
+    "static/js/main.da406fc9.chunk.js"
   ]
 }
