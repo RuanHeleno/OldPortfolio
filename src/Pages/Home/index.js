@@ -1,38 +1,37 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Typewriter from 'typewriter-effect';
+
 import { 
   StyledHome, 
-  StyledHead, 
-  StyledDiv,
-  StyledSpan,
-  StyledIcons,
+  StyledHead,
   StyledQuote, 
   StyledFigCaption 
 } from './style';
 
 export default function Home() {
-  let initialText = "Aqui tem um pouco sobre cada tecnologia que já programei e a sua respectiva experiência profissional";
-  let initialText2 = "- Passe o mouse por cima dos cards para ler sobre";
-  const [text, setText] = useState(initialText);
-  const [text2, setText2] = useState(initialText2);
-  const onChange = (text, text2) => {
-    setText(text);
-    setText2(text2);
-  }
-
   return (
-    <StyledHome className="BackgroundHome">
-      <StyledHead className="Welcome">Sejam Bem-Vindos!</StyledHead>
-      <StyledDiv>
-        <StyledSpan className="Knowledge">
-          {text}
-          <br /><br />
-          {text2}
-        </StyledSpan>
-        <StyledIcons 
-          onMouseOver={() => onChange('Linguagem de marcação utilizada pra criação de páginas Web', '1 ano')}
-          onMouseLeave={() => onChange(initialText, initialText2)}
-        />
-      </StyledDiv>
+    <StyledHome>
+      <StyledHead>
+        Sejam Bem-Vindos, eu sou Ruan Heleno!  <br />
+        <span>
+          <Typewriter
+            options={{
+              loop: true
+            }}
+            onInit={(typewriter)=> {
+              typewriter
+              .typeString("Desenvolvedor Front-End")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("Aprendizado focado em Javascript e React JS")
+              .pauseFor(1000)
+              .deleteAll()
+              .typeString("Apaixonado por programação")
+              .start();
+            }}
+          />
+        </span>
+      </StyledHead>
       <StyledQuote>
         <q> Tudo o que a mente humana pode conceber, ela pode conquistar. </q>
         <StyledFigCaption> &mdash; Napoleon Hill </StyledFigCaption>

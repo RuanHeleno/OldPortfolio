@@ -11,18 +11,20 @@ export default function Menu() {
 
     return (
         <StyledMenu className="Menu">
-            <Photo />
-            <Buttons/>
-            <ThemeContext.Consumer>
-                {({ changeTheme }) => (
-                    <ToggleDark
-                        toggleDark={() => {
-                            setDarkMode(!darkMode);
-                            changeTheme(darkMode ? themes.dark : themes.light);
-                        }}
-                    />
-                )}
-            </ThemeContext.Consumer>
+            <center>
+                <Photo />
+                <Buttons/>
+                <ThemeContext.Consumer>
+                    {({ changeTheme }) => (
+                        <ToggleDark
+                            toggleDark={() => {
+                                setDarkMode(!darkMode);
+                                changeTheme(darkMode ? themes.dark : themes.light);
+                            }}
+                        />
+                    )}
+                </ThemeContext.Consumer>
+            </center>
         </StyledMenu>
     );
 }

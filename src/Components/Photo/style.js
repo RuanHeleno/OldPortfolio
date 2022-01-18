@@ -2,9 +2,10 @@ import styled from 'styled-components';
 import fotoPerfil from '../../Assets/Images/EuSerio.jpg'
 
 export const StyledImage = styled.img`
-    width: 70%;
-    margin: 20% 0 0 0;
-    border-radius: 100%;
+    width: 40%;
+    margin: 10% 0 0 0;
+    border-radius: 50%;
+    border: 10px solid grey;
 `;
 
 StyledImage.defaultProps = {
@@ -22,6 +23,6 @@ export const StyledBlockQuote = styled.blockquote`
     box-shadow: inset 0 0 5px #000000;
     width: 80%;
     height: auto;
+    margin: 5% 0 15% 0;
     padding: 5% 0 5% 0;
-    margin: 10% 0 0 0;
 `

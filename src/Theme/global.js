@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import background from "../Assets/Images/BackgroundHomeNight.jpg";
  
 const GlobalStyle = createGlobalStyle`
   *,
@@ -34,22 +33,17 @@ const GlobalStyle = createGlobalStyle`
     }
 
     .Links {
+        color: #FFF;
+
         &:hover {
-          background-color: #A9A9A9;
-          width: 100%;
           transition: .2s all ease-in-out;
-          color: #696969;
+          color: darkgray;
       }
     }
 
     .Quote {
       background: #808080;
       color: white;
-    }
-
-    .BackgroundHome {
-      background: url(${background}) no-repeat center center fixed;
-      background-size: cover;
     }
   }
 `;

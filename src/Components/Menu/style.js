@@ -11,5 +11,4 @@ export const StyledMenu = styled.div`
     @media screen and (min-width: 790px) {
         width: 21vw;
     }
-    align-items: center;
 `;
