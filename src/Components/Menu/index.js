@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { StyledMenu } from './style'
+import { StyledMenu  } from './style';
 import { ThemeContext, themes } from '../../Theme/themeContext';
-import ToggleDark from '../../Components/ToggleDark';
-import Buttons from '../Buttons';
 import Photo from '../Photo';
+import Buttons from '../Buttons';
+import ToggleDark from '../ToggleDark';
+import SocialLinks from '../Social';
 
 export default function Menu() {
-    const [darkMode, setDarkMode] = React.useState(true);
+    const [darkMode, setDarkMode] = useState(false);
 
     return (
         <StyledMenu className="Menu">
@@ -25,6 +26,7 @@ export default function Menu() {
                     )}
                 </ThemeContext.Consumer>
             </center>
+            <SocialLinks />
         </StyledMenu>
     );
 }

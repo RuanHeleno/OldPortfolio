@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { StyledDarkModeToggle } from './style'
 
 export default function ToggleDark(props) {
-  const [isDarkMode, setIsDarkMode] = useState(() => true);
+  const [isDarkMode, setIsDarkMode] = useState(() => false);
 
   useEffect(() => {
     switch(isDarkMode) {

@@ -4,15 +4,15 @@ import Typewriter from 'typewriter-effect';
 import { 
   StyledHome, 
   StyledHead,
-  StyledQuote, 
-  StyledFigCaption 
+  /* StyledQuote, 
+  StyledFigCaption  */
 } from './style';
 
 export default function Home() {
   return (
     <StyledHome>
       <StyledHead>
-        Sejam Bem-Vindos, eu sou Ruan Heleno!  <br />
+        Bem-vindos, eu sou Ruan Heleno!  <br />
         <span>
           <Typewriter
             options={{
@@ -20,22 +20,23 @@ export default function Home() {
             }}
             onInit={(typewriter)=> {
               typewriter
-              .typeString("Desenvolvedor Front-End")
+              .typeString('Desenvolvedor Front-End')
               .pauseFor(1000)
               .deleteAll()
-              .typeString("Aprendizado focado em Javascript e React JS")
+              .typeString('Aprendizado focado em Javascript e React JS')
               .pauseFor(1000)
               .deleteAll()
-              .typeString("Apaixonado por programação")
+              .typeString('Apaixonado por programação')
+              .pauseFor(1000)
               .start();
             }}
           />
         </span>
       </StyledHead>
-      <StyledQuote>
+      {/* <StyledQuote>
         <q> Tudo o que a mente humana pode conceber, ela pode conquistar. </q>
         <StyledFigCaption> &mdash; Napoleon Hill </StyledFigCaption>
-      </StyledQuote>
+      </StyledQuote> */}
     </StyledHome>
   );
 }

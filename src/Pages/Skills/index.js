@@ -1,12 +1,12 @@
 import React, { useState }  from 'react';
 import { 
-  StyledKnowledges, 
+  StyledSkills, 
   StyledDiv,
   StyledSpan,
   StyledIcons, 
 } from './style';
 
-export default function Knowledges() {
+export default function Skills() {
   let initialText = "Aqui tem um pouco sobre cada tecnologia que já programei e a sua respectiva experiência profissional";
   let initialText2 = "- Passe o mouse por cima dos cards para ler sobre";
   const [text, setText] = useState(initialText);
@@ -17,7 +17,7 @@ export default function Knowledges() {
   }
 
   return (
-      <StyledKnowledges>
+      <StyledSkills>
           <StyledDiv>
             <StyledSpan className="Knowledge">
               {text}
@@ -29,6 +29,6 @@ export default function Knowledges() {
               onMouseLeave={() => onChange(initialText, initialText2)}
             />
           </StyledDiv>
-      </StyledKnowledges>
+      </StyledSkills>
   );
 }

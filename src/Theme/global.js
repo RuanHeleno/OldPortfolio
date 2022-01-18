@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
     width: 100vw;
     margin: 0;
     padding: 0;
-    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
     transition: all 0.25s linear;
   }
 

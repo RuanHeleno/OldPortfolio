@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export const StyledDiv = styled.div `
     display: flex;
     flex-direction: column;
-    margin-left: 2%;
+    margin: 15% 0 0 4%;
 `
 
 export const StyledLink = styled(Link)`
@@ -17,8 +17,7 @@ export const StyledLink = styled(Link)`
     font-family: EB Garamond;
     transition: .2s all ease-in-out;
     user-select: none;
-    margin: 1% 0;
-    padding: 3% 0;
+    padding-bottom: 3%;
 
     &:hover {
         transition: .2s all ease-in-out;

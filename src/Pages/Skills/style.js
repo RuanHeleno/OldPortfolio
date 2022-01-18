@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import html5I from '../../Assets/Images/Icons/html5.png';
 
-export const StyledKnowledges = styled.div`
+export const StyledSkills = styled.div`
     font-family: Georgia, serif;
     height: 100vh;
     width: 80vw;
