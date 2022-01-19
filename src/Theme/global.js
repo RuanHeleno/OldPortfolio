@@ -40,11 +40,6 @@ const GlobalStyle = createGlobalStyle`
           color: darkgray;
       }
     }
-
-    .Quote {
-      background: #808080;
-      color: white;
-    }
   }
 `;
 

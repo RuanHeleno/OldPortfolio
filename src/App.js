@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import { Container, Row, Col } from 'react-grid-system';
 import WebFont from 'webfontloader';
 
 import GlobalStyle from './Theme/global';
@@ -21,12 +20,12 @@ function App() {
     <Router>
         <ThemeContextWrapper>
           <GlobalStyle />
-          <Container fluid style={{paddingRight: "-15px", paddingLeft: "-15px"}}>
-            <Row style={{paddingRight: "-15px", paddingLeft: "-15px"}}>
-              <Col style={{paddingRight: "-15px", paddingLeft: "-15px"}}> <Menu /> </Col>
-              <Col style={{paddingRight: "-15px", paddingLeft: "-15px"}}> <RoutesNav /> </Col >
-            </Row>
-          </Container>
+          <div className="container" style={{ margin: "0px", padding: "0px" }}>
+            <div className="row" style={{ margin: "0px", padding: "0px" }}>
+              <div className="col" style={{ margin: "0px", padding: "0px" }}> <Menu /> </div>
+              <div className="col-9" style={{ margin: "0px", padding: "0px" }}> <RoutesNav /> </div>
+            </div>
+          </div>
         </ThemeContextWrapper>
     </Router>
   );

@@ -4,34 +4,31 @@ import { MdEmail } from 'react-icons/md';
 import { IoLogoWhatsapp } from 'react-icons/io5';
 
 import { 
-    StyledSpan,
+    StyledDiv,
     StyledSocialLinks,
     StyledGitHub }
 from './style';
 
 export default function SocialLinks() {
     return(
-        <StyledSpan>
-            <StyledSocialLinks href="https://linkedin.com/in/ruan-heleno-da-rocha-vieira-753155105"> 
+        <StyledDiv>
+            <StyledSocialLinks href="https://linkedin.com/in/ruan-heleno-da-rocha-vieira-753155105" target="_blank"> 
                 <TiSocialLinkedin size={30} /> 
             </StyledSocialLinks>
-            <StyledSocialLinks href=""> 
+            <StyledSocialLinks href="https://www.instagram.com/ruanhelenoof" target="_blank"> 
                 <TiSocialInstagram size={30} /> 
             </StyledSocialLinks>
-            <StyledSocialLinks href="https://github.com/RuanHeleno"> 
+            <StyledSocialLinks href="https://github.com/RuanHeleno" target="_blank"> 
                 <TiSocialGithub size={30} /> 
             </StyledSocialLinks>
-            <StyledSocialLinks 
-            // eslint-disable-next-line no-script-url
-            onClick="javascript:window.open('mailto:ruan.empreenderop@gmail.com', 'mail'); event.preventDefault()" 
-            href="mailto:ruan.empreenderop@gmail.com">   
+            <StyledSocialLinks href="mailto:ruanheleno.dev@gmail.com" target="_blank">   
                 <MdEmail size={30} />
             </StyledSocialLinks>
-            <StyledSocialLinks href="https://wa.me/+5521976321006" target="_blank"> 
+            <StyledSocialLinks href="https://wa.me/+5521964252735" target="_blank"> 
                 <IoLogoWhatsapp size={30} /> 
             </StyledSocialLinks>
             <br />
             Desenvolvido por <StyledGitHub href="https://github.com/RuanHeleno">Ruan Heleno</StyledGitHub>
-        </StyledSpan>
+        </StyledDiv>
     )
 }

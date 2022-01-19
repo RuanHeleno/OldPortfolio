@@ -1,31 +1,26 @@
 import styled from 'styled-components';
 import html5I from '../../Assets/Images/Icons/html5.png';
 
+
 export const StyledSkills = styled.div`
-    font-family: Georgia, serif;
-    height: 100vh;
-    width: 80vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   margin-top: 3%;
+`
+
+export const StyledText = styled.h1`
+    text-align: center;
+    font-size: 4rem;
+    margin-top: 2%;
 `
 
 export const StyledDiv = styled.div`
-    background: rgba(255,245,238, .5);
     font-size: 2rem;
-    margin: 0;
-    padding: 0 1.1%;
-    width: 100%;
-    height: 50%;
-    display: flex;
-    text-align: center;
-    align-items: center;
 `
 
 export const StyledSpan = styled.span`
     text-align: left;
     max-width: 50%;
     word-wrap: break-word;
+    
 `
 
 export const StyledIcons = styled.img`
@@ -33,6 +28,7 @@ export const StyledIcons = styled.img`
     height: auto;
     margin-left: auto;
     transition: transform .2s;
+    margin-right: 2%;
 
     &:hover {
         transform: scale(1.5);
@@ -44,3 +40,8 @@ StyledIcons.defaultProps = {
     alt: "HTML5",
     title: "HTML5"
 };
+
+export const StyledSkillsBar = styled.div`
+    margin: 10% auto;
+    text-align: center;
+`

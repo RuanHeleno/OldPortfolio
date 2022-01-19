@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
-export const StyledSpan = styled.span`
+export const StyledDiv = styled.div`
     text-align: center;
+    margin-top: 10%;
 `
 
 export const StyledSocialLinks = styled.a`

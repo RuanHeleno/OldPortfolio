@@ -10,28 +10,27 @@ import {
 
 export default function Home() {
   return (
-    <StyledHome>
+    <StyledHome className="animate__animated animate__fadeIn">
       <StyledHead>
         Bem-vindos, eu sou Ruan Heleno!  <br />
-        <span>
-          <Typewriter
-            options={{
-              loop: true
-            }}
-            onInit={(typewriter)=> {
-              typewriter
-              .typeString('Desenvolvedor Front-End')
-              .pauseFor(1000)
-              .deleteAll()
-              .typeString('Aprendizado focado em Javascript e React JS')
-              .pauseFor(1000)
-              .deleteAll()
-              .typeString('Apaixonado por programação')
-              .pauseFor(1000)
-              .start();
-            }}
-          />
-        </span>
+        <Typewriter
+          options={{
+            loop: true
+          }}
+          onInit={(typewriter)=> {
+            typewriter
+            .pauseFor(500)
+            .typeString('Desenvolvedor Front-End')
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString('Aprendizado focado em Javascript e React JS')
+            .pauseFor(1000)
+            .deleteAll()
+            .typeString('Apaixonado por programação')
+            .pauseFor(1000)
+            .start();
+          }}
+        />
       </StyledHead>
       {/* <StyledQuote>
         <q> Tudo o que a mente humana pode conceber, ela pode conquistar. </q>
