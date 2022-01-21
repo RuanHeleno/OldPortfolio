@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import Me from '../../Assets/Images/EuSerio.jpg'
 
 export const StyledAboutMe = styled.div`
-    width: 80vw;
+    width: 82vw;
     margin-top: 3%;
     padding: 0;
 `
@@ -17,9 +17,9 @@ export const StyledContent = styled.div`
 `
 
 export const StyledImg = styled.img`
-    width: 80%;
+    width: 90%;
     height: auto;
-    margin-left: 15%;
+    margin: 5% 0 0 10%;
 `
 
 StyledImg.defaultProps = {
@@ -32,6 +32,7 @@ export const StyledDiv = styled.div`
     margin: 0 3% 0 3%;
     font-size: 2rem;
     animation-duration: 1.5s;
+    
 `
 
 export const StyledText = styled.h3`
@@ -44,12 +45,13 @@ export const StyledSpan = styled.span`
     color: red;
 `
 
-export const StyledFoot = styled.span`
+export const StyledFoot = styled.div`
     font-size: 1.3rem;
+    margin-top: 5%;
 `
 
 export const StyledText2 = styled.div` 
     font-size: 1.6rem;
-    margin: 0 3% 0 3%;
+    margin: 5% 3% 0 3%;
     animation-duration: 1.5s;
 `

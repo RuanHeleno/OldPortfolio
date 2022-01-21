@@ -8,13 +8,13 @@ export const StyledHome = styled.div`
     height: 100vh;
     width: 100vw;
     display: flex;
-    justify-content: center;
     align-items: center;
 `
 
 export const StyledHead = styled.h1`
     color: white;
     font-size: 3rem;
+    margin-left: 15%;
     span {
         font-family: Dancing Script;
         font-size: 2.5rem;

@@ -9,6 +9,10 @@ export const StyledSocialLinks = styled.a`
     margin-right: 3%;
     cursor: pointer;
     color: inherit;
+
+    &:hover {
+        color: inherit;
+    }
 `
 
 export const StyledGitHub = styled.a`

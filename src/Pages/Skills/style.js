@@ -1,9 +1,7 @@
 import styled from 'styled-components';
-import html5I from '../../Assets/Images/Icons/html5.png';
-
 
 export const StyledSkills = styled.div`
-   margin-top: 3%;
+   width: 80vw;
 `
 
 export const StyledText = styled.h1`
@@ -12,7 +10,8 @@ export const StyledText = styled.h1`
     margin-top: 2%;
 `
 
-export const StyledDiv = styled.div`
+export const StyledContent = styled.div`
+    margin: 8% 0 0 1%;
     font-size: 2rem;
 `
 
@@ -20,28 +19,28 @@ export const StyledSpan = styled.span`
     text-align: left;
     max-width: 50%;
     word-wrap: break-word;
+`
+
+export const StyledDivIcons = styled.div`
+    text-align: right;
     
 `
 
 export const StyledIcons = styled.img`
-    width: 5%;
+    width: 15%;
     height: auto;
-    margin-left: auto;
+    background-color: rgba(255, 250, 250, .8);
+    border-radius: 10%;
     transition: transform .2s;
-    margin-right: 2%;
+    margin: 2%;
 
     &:hover {
-        transform: scale(1.5);
+        transform: scale(1.1);
+        border-bottom: 5px solid rgba(0, 0, 0, .6);
     }
 `
 
-StyledIcons.defaultProps = {
-    src: html5I,
-    alt: "HTML5",
-    title: "HTML5"
-};
-
 export const StyledSkillsBar = styled.div`
-    margin: 10% auto;
+    margin-top: 8%;
     text-align: center;
 `

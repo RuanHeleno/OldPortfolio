@@ -19,26 +19,26 @@ export default function AboutMe() {
       </StyledTitle>
       <StyledContent className="row">
         <div className="col"> <StyledImg className="animate__animated animate__fadeIn" /> </div>
-        <div className="col-6">
-          <StyledDiv className="animate__animated animate__fadeInRightBig">
-            <StyledText className="row"> Programador Apaixonado </StyledText>
-            <div className="row">
-              <div className="col"> 
-                <StyledSpan> &gt; </StyledSpan> Idade: 25 anos <br />
-                <StyledSpan> &gt; </StyledSpan> Técnico em Informática focado em programação <br />
-                <StyledSpan> &gt; </StyledSpan> Bacharel em Sistemas de Informação 
-              </div>
-              <div className="col">
-                <StyledSpan> &gt; </StyledSpan> Freelancer <br />
-                <StyledSpan> &gt; </StyledSpan> Bootcamps em Front-end e FullStack <br />
-                <StyledSpan> &gt; </StyledSpan> Experiência Freelancer de 6 meses 
-              </div>
+        <StyledDiv className="animate__animated animate__fadeInRightBig col-7">
+          <StyledText className="row"> 
+            <div className="col"> Desenvolvedor Júnior </div>
+          </StyledText>
+          <div className="row">
+            <div className="col"> 
+              <StyledSpan> &gt; </StyledSpan> Idade: 25 anos <br />
+              <StyledSpan> &gt; </StyledSpan> Técnico em Informática focado em programação <br />
+              <StyledSpan> &gt; </StyledSpan> Bootcamps em Front-end e FullStack
             </div>
-            <StyledFoot>
-              Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.
-            </StyledFoot>
-          </StyledDiv>
-        </div>
+            <div className="col">
+              <StyledSpan> &gt; </StyledSpan> Freelancer <br />
+              <StyledSpan> &gt; </StyledSpan> Bacharel em Sistemas de Informação <br />
+              <StyledSpan> &gt; </StyledSpan> Experiência Freelancer de 6 meses 
+            </div>
+          </div>
+          <StyledFoot>
+            Ser desenvolvedor é uma viagem onde a próxima parada é a solução de um problema.
+          </StyledFoot>
+        </StyledDiv>
       </StyledContent>
       <StyledText2 className="animate__animated animate__fadeInUpBig row">
         <div className="col">
