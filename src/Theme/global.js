@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     background: #1C1C1C;
     color: white;
     
-    .Menu {
+    .Menu, .Cards {
       background: #363636;
     }
 
