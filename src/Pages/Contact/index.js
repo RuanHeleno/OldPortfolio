@@ -53,7 +53,7 @@ export default function Contact() {
             </div>
           </div>
           <StyledContent className="row">
-            <div className="col">
+            <div className="col-sm col-md col-sl col-xl">
               <a href="https://www.linkedin.com/in/ruan-heleno-da-rocha-vieira-753155105/" target="_blank" className="button linkedin" rel="noreferrer"><span><FontAwesomeIcon icon={faLinkedin} /></span><p>Linkedin</p></a>
 
               <a href="https://github.com/ruanheleno" target="_blank" className="button github" rel="noreferrer"><span><FontAwesomeIcon icon={faGithub} /></span><p>Github</p></a>

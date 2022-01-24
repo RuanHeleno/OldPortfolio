@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    overflow: hidden;
+    overflow: auto;
     background: #FAF0E6;
     color: black;
     font-size: 20px;
@@ -27,6 +27,10 @@ const GlobalStyle = createGlobalStyle`
   .black-content {
     background: #1C1C1C;
     color: white;
+
+    .ToggleMenu {
+      background: white;
+    }
     
     .Menu, .Cards {
       background: #363636;

@@ -1,7 +1,17 @@
 import styled from 'styled-components';
 
 export const StyledSkills = styled.div`
-   width: 80vw;
+    @media screen and (max-width: 599px) {
+        margin-top: 18%;
+    }
+
+    @media screen and (min-width: 600px) {
+        margin-top: 8%;
+    }
+
+    @media screen and (min-width: 900px) {
+        margin-top: 3%;
+    }
 `
 
 export const StyledText = styled.h1`
@@ -13,17 +23,31 @@ export const StyledText = styled.h1`
 export const StyledContent = styled.div`
     margin: 8% 0 0 1%;
     font-size: 2rem;
+
+    @media screen and (max-width: 599px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 600px) {
+        display: none;
+    }
+
+    @media screen and (min-width: 900px) {
+        display: block;
+        font-size: 3rem;
+    }
 `
 
 export const StyledSpan = styled.span`
     text-align: left;
-    max-width: 50%;
-    word-wrap: break-word;
 `
 
 export const StyledDivIcons = styled.div`
-    text-align: right;
+    text-align: center;
     
+    @media screen and (min-width: 900px) {
+        margin-top: 5%;
+    }
 `
 
 export const StyledIcons = styled.img`
@@ -38,9 +62,34 @@ export const StyledIcons = styled.img`
         transform: scale(1.1);
         border-bottom: 5px solid rgba(0, 0, 0, .6);
     }
+
+    @media screen and (min-width: 1200px) {
+       width: 10%;
+    }
 `
 
 export const StyledSkillsBar = styled.div`
     margin-top: 8%;
     text-align: center;
+
+    @media screen and (max-width: 599px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 20%;
+    }
+
+    @media screen and (min-width: 600px) {
+        margin-top: 20%;
+        width: 100vw;
+    }
+
+    @media screen and (min-width: 900px) {
+        margin-top: 10%;
+        width: 100vw;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-top: 5%;
+        width: 100vw;
+    }
 `

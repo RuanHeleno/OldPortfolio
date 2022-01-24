@@ -12,7 +12,7 @@ export default function Projects() {
             </div>
           </div>
           <StyledContent className="row">
-            <div className="col">
+            <div className="col-sm col-md col-sl col-xl">
               <Cards />
             </div>
           </StyledContent>

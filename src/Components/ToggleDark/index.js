@@ -18,7 +18,7 @@ export default function ToggleDark(props) {
     <StyledDarkModeToggle
       checked={isDarkMode}
       onChange={setIsDarkMode}
-      size={80}
+      size={100}
     />
   );
 }

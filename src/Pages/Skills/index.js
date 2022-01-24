@@ -21,7 +21,7 @@ import {
 
 export default function Skills() {
   let initialText = "Aqui tem um pouco sobre cada tecnologia que já programei."
-  let initialText2 = "- Passe o mouse por cima dos cards para ler sobre";
+  let initialText2 = "- Passe o mouse por cima dos cards ou toque neles caso esteja em um celular para ler sobre";
   const [text, setText] = useState(initialText);
   const [text2, setText2] = useState(initialText2);
   const onChange = (text, text2) => {
@@ -83,14 +83,14 @@ export default function Skills() {
         </div>
       </div>
       <StyledContent className="animate__animated animate__fadeIn row">
-        <div className="col">
+        <div className="col-sm col-md-12 col-sl col-xl">
           <StyledSpan>
             {text}
             <br /><br />
             {text2}
           </StyledSpan>
         </div>
-        <StyledDivIcons className="col">
+        <StyledDivIcons className="col-sl col-md col-sl col-xl">
           <StyledIcons src={javaScriptI} alt="Ícone da Linguagem JavaScript" title="JavaScript"
             onMouseOver={() => onChange('JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.', '')}
             onMouseLeave={() => onChange(initialText, initialText2)}
@@ -126,10 +126,10 @@ export default function Skills() {
         </StyledDivIcons>
       </StyledContent>
       <StyledSkillsBar className="row"> 
-        <div className="col">
+        <div className="col-sm-1 col-md-12 col-sl col-xl">
           <SkillBars skills={skillsData} flat duration={1} levelProgress />
         </div>
-        <div className="col">
+        <div className="col-sm col-md col-sl col-xl">
           <SkillBars skills={skillsData2} flat duration={1} levelProgress />
         </div>
       </StyledSkillsBar>

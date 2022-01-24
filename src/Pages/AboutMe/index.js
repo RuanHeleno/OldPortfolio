@@ -13,13 +13,13 @@ import {
 
 export default function AboutMe() {
   return (
-    <StyledAboutMe className="container-fluid">
+    <StyledAboutMe className="container-fluid" style={{padding: "0", margin: "0"}}>
       <StyledTitle className="animate__animated animate__fadeInDownBig row">
         <div className="col">  Conheça um pouco sobre minha jornada </div>
       </StyledTitle>
       <StyledContent className="row">
-        <div className="col"> <StyledImg className="animate__animated animate__fadeIn" /> </div>
-        <StyledDiv className="animate__animated animate__fadeInRightBig col-7">
+        <div className="col-sm-1 col-md-6 col-sl col-xl"> <StyledImg className="animate__animated animate__fadeIn" /> </div>
+        <StyledDiv className="animate__animated animate__fadeInRightBig col-sm col-md col-sl col-xl">
           <StyledText className="row"> 
             <div className="col"> Desenvolvedor Júnior </div>
           </StyledText>

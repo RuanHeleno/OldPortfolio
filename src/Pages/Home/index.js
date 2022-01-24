@@ -3,9 +3,7 @@ import Typewriter from 'typewriter-effect';
 
 import { 
   StyledHome, 
-  StyledHead,
-  /* StyledQuote, 
-  StyledFigCaption  */
+  StyledHead
 } from './style';
 
 export default function Home() {
@@ -32,10 +30,6 @@ export default function Home() {
           }}
         />
       </StyledHead>
-      {/* <StyledQuote>
-        <q> Tudo o que a mente humana pode conceber, ela pode conquistar. </q>
-        <StyledFigCaption> &mdash; Napoleon Hill </StyledFigCaption>
-      </StyledQuote> */}
     </StyledHome>
   );
 }
