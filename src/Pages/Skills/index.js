@@ -120,7 +120,7 @@ export default function Skills() {
             onMouseLeave={() => onChange(initialText, initialText2)}
           />
           <StyledIcons src={mysqlI} alt="Ícone da Linguagem MySQL" title="MySQL"
-            onMouseOver={() => onChange('O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas de gerenciamento de bancos de dados mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.', '')}
+            onMouseOver={() => onChange('O MySQL é um sistema de gerenciamento de banco de dados, que utiliza a linguagem SQL como interface. É atualmente um dos sistemas mais populares da Oracle Corporation, com mais de 10 milhões de instalações pelo mundo.', '')}
             onMouseLeave={() => onChange(initialText, initialText2)}
           />
         </StyledDivIcons>

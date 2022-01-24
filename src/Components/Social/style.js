@@ -5,11 +5,11 @@ export const StyledDiv = styled.div`
     text-align: center;
 
     @media screen and (max-width: 599px) {
-        bottom: 10%;
+        bottom: 0;
     }
 
     @media screen and (min-width: 600px) { 
-        bottom: -5%;
+        bottom: 0;
         margin: 0 auto;
 
         span {
@@ -23,7 +23,7 @@ export const StyledDiv = styled.div`
     }
 
     @media screen and (min-width: 900px) {
-        bottom: -5%;
+        bottom: 0;
         margin: 0 2%;
 
         span {
@@ -37,7 +37,7 @@ export const StyledDiv = styled.div`
     }
 
     @media screen and (min-width: 1200px) {
-        bottom: -7%;
+        bottom: 0;
         margin: 0 2%;
 
         span {
@@ -51,7 +51,7 @@ export const StyledDiv = styled.div`
     }
 
     @media screen and (min-width: 1800px) { 
-        bottom: -7%;
+        bottom: 0;
         margin: 0 2%;
 
         span {
