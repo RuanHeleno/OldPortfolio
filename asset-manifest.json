@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/static/js/main.b6c88bb1.chunk.js",
-    "main.js.map": "/static/js/main.b6c88bb1.chunk.js.map",
+    "main.js": "/static/js/main.c8a5c84e.chunk.js",
+    "main.js.map": "/static/js/main.c8a5c84e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5db9d757.js",
     "runtime-main.js.map": "/static/js/runtime-main.5db9d757.js.map",
     "static/css/2.a1596f27.chunk.css": "/static/css/2.a1596f27.chunk.css",
-    "static/js/2.d34ab615.chunk.js": "/static/js/2.d34ab615.chunk.js",
-    "static/js/2.d34ab615.chunk.js.map": "/static/js/2.d34ab615.chunk.js.map",
+    "static/js/2.489774bc.chunk.js": "/static/js/2.489774bc.chunk.js",
+    "static/js/2.489774bc.chunk.js.map": "/static/js/2.489774bc.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/static/css/2.a1596f27.chunk.css.map",
-    "static/js/2.d34ab615.chunk.js.LICENSE.txt": "/static/js/2.d34ab615.chunk.js.LICENSE.txt",
+    "static/js/2.489774bc.chunk.js.LICENSE.txt": "/static/js/2.489774bc.chunk.js.LICENSE.txt",
     "static/media/BackgroundHome.9519a563.jpg": "/static/media/BackgroundHome.9519a563.jpg",
     "static/media/CartShopping.12bd868f.png": "/static/media/CartShopping.12bd868f.png",
     "static/media/Covid19inWorld.8538e122.png": "/static/media/Covid19inWorld.8538e122.png",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.5db9d757.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.d34ab615.chunk.js",
-    "static/js/main.b6c88bb1.chunk.js"
+    "static/js/2.489774bc.chunk.js",
+    "static/js/main.c8a5c84e.chunk.js"
   ]
 }
