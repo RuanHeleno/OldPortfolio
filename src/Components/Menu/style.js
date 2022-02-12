@@ -1,26 +1,43 @@
 import styled from 'styled-components';
 
+import logo from '../../Assets/Images/logo.png';
+
 export const StyledMenu = styled.nav`
     position: fixed;
-    left: 0;
     z-index: 9;
-    transition: transform 0.3s ease-in-out;
-    transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
-    height: 100vh;
+    width: 100vw;
+    background: #2C394BBF;
+    height: 8vh;
 
     @media screen and (max-width: 599px) {
-        width: 50%;
+        flex-direction: column;
     }
 
     @media screen and (min-width: 600px) { 
-        width: 40%;
+        
     }
 
     @media screen and (min-width: 900px) { 
-        width: 30%;
+       
     }
 
     @media screen and (min-width: 1200px) { 
-        width: 30%;
+        
     }
 `;
+
+export const StyledLogo = styled.img`
+    width: 25%;
+    margin-top: -4%;
+
+    @media screen and (max-width: 599px) {
+       width: 60%;
+       margin-top: -9%;
+    }
+`;
+
+StyledLogo.defaultProps = {
+    src: logo,
+    alt: "Logo Nome Ruan",
+    title: "Ruan"
+}

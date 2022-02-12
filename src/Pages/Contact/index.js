@@ -12,7 +12,7 @@ import {
   StyledButton 
 } from './style';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -46,13 +46,13 @@ export default function Contact() {
   };
 
   return (
-      <StyledContact className="animate__animated animate__fadeIn container-fluid">
+      <StyledContact className="animate__animated animate__fadeIn container-fluid" id="contact">
           <div className="row">
-            <div className="col">
+            <div className="col mt-2">
               <StyledTitle>Entre em contato comigo através de alguma das redes sociais abaixo</StyledTitle>
             </div>
           </div>
-          <StyledContent className="row">
+          <StyledContent className="row mt-5">
             <div className="col-sm col-md col-sl col-xl">
               <a href="https://www.linkedin.com/in/ruan-heleno-da-rocha-vieira-753155105/" target="_blank" className="button linkedin" rel="noreferrer"><span><FontAwesomeIcon icon={faLinkedin} /></span><p>Linkedin</p></a>
 
@@ -61,21 +61,18 @@ export default function Contact() {
               <a href="https://www.instagram.com/ruanhelenoof" target="_blank" className="button instagram" rel="noreferrer"><span><FontAwesomeIcon icon={faInstagram} /></span><p>Instagram</p></a>
 
               <a href="mailto:ruanheleno.dev@gmail.com" target="_blank" className="button email" rel="noreferrer"><span><FontAwesomeIcon icon={faEnvelope} /></span><p>Email</p></a>
-
-              <a href="https://wa.me/+5521964252735" target="_blank" className="button whatsapp" rel="noreferrer"><span><FontAwesomeIcon icon={faWhatsapp} /></span><p>Whatsapp</p></a>
             </div>
           </StyledContent>
-          <StyledContent2
-           className="row">
+          <StyledContent2 className="row mt-5">
               <div className="col"> Ou... </div>
           </StyledContent2>
           <div className="row">
               <div className="col">
-                <StyledP>Me envie uma mensagem por aqui mesmo!</StyledP>
+                <StyledP className="pt-2">Me envie uma mensagem por aqui mesmo!</StyledP>
               </div>
             </div>
-          <StyledForm id="contact-form" onSubmit={handleOnSubmit}>
-            <div className="row">
+          <StyledForm className="ms-4 me-3" id="contact-form" onSubmit={handleOnSubmit}>
+            <div className="row mt-5">
               <div className="form-group col">
                   <label htmlFor="nome">Seu Nome</label>
                   <input type="text" className="form-control" id="nome" name="user_name" required 
@@ -93,7 +90,7 @@ export default function Contact() {
                   style={{ border: "1px solid black" }} ></textarea>
               </div>
             </div>
-            <StyledButton type="submit" value="submit" className="btn btn-success">Enviar</StyledButton>
+            <StyledButton type="submit" value="submit" className="btn btn-primary mt-3 mb-5">Enviar</StyledButton>
         </StyledForm>
       </StyledContact>
   );

@@ -1,54 +1,95 @@
 import styled from 'styled-components';
+import { HashLink as Link } from 'react-router-hash-link';
 
-import { Link } from 'react-router-dom';
+import { IoHome } from "react-icons/io5";
+import { SiAboutdotme } from "react-icons/si";
+import { MdOutlineComputer } from "react-icons/md";
+import { FaNewspaper } from "react-icons/fa";
+import { IoMdContact } from "react-icons/io";
 
 export const StyledDiv = styled.div `
-    display: flex;
-    flex-direction: column;
-    margin: 15% 0 0 2%;
-
+    
+    font-family: EB Garamond;
+    
     @media screen and (min-width: 600px) { 
-        margin-top: 10%;
+        
     }
 
     @media screen and (min-width: 900px) { 
-        margin-top: 5%;
+       
     }
 `
 
 export const StyledLink = styled(Link)`
-    display: flex;
-    align-items: center;
-    color: black;
+    color: inherit;
     text-decoration: none;
-    font-size: 2rem;
-    font-family: EB Garamond;
-    transition: .2s all ease-in-out;
-    user-select: none;
-    padding-bottom: 3%;
+    transition: .3s all ease-in-out;
 
     &:hover {
-        transition: .2s all ease-in-out;
+        transition: .3s all ease-in-out;
         color: darkgray;
     }
 
     @media screen and (max-width: 599px) {
-        font-size: 1.5rem;
+        
+        span {
+            display: none;
+        }
     }
 
     @media screen and (min-width: 600px) { 
-        font-size: 1.5rem;
+        
     }
 
     @media screen and (min-width: 900px) {
-        font-size: 3rem;
+        
     }
 
     @media screen and (min-width: 1200px) {
-        font-size: 2rem;
+        
     }
 
     @media screen and (min-width: 1800px) { 
-        font-size: 3rem;
+        
+    }
+`;
+
+export const StyledHomeI = styled(IoHome)`
+    font-size: 1.5rem; 
+
+    @media screen and (min-width: 600px) {
+        display: none; 
+    }
+`;
+
+export const StyledAboutMeI = styled(SiAboutdotme)`
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 600px) { 
+        display: none; 
+    }
+`;
+
+export const StyledSkillsI = styled(MdOutlineComputer)`
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 600px) { 
+        display: none; 
+    }
+`;
+
+export const StyledProjectsI= styled(FaNewspaper)`
+    font-size: 1.5rem;
+
+    @media screen and (min-width: 600px) { 
+        display: none; 
+    }
+`;
+
+export const StyledContactI = styled(IoMdContact)`
+    font-size: 1.5rem;
+    
+    @media screen and (min-width: 600px) { 
+        display: none; 
     }
 `;

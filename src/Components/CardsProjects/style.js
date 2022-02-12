@@ -2,57 +2,38 @@ import styled from 'styled-components';
 import { MDBCard, MDBCardText, MDBCardTitle} from 'mdb-react-ui-kit';
 
 export const StyledContent = styled.div`
-    @media screen and (max-width: 599px) {
-        width: 360%;
-    }
-
-    @media screen and (min-width: 600px) {
-        width: 360%;
-    }
-
-    @media screen and (min-width: 900px) {
-        margin-left: 3%;
-    }
+    animation-duration: 4s;
 `
 
 export const StyledMDBCard = styled(MDBCard)`
-    max-width: 25%;
-    background: #FFE4C4;
-    margin: 2% 5% 0 0;
-
-    @media screen and (max-width: 599px) {
-        margin-bottom: 5%;
-    }
-
-    @media screen and (min-width: 600px) {
-        margin-bottom: 1%;
-    }
-
-    @media screen and (min-width: 1800px) {
-        margin-bottom: 0;
-    }
+    background: #334756;
+    margin-bottom: 5%;
+    margin-right: 3%;
 `
 
 export const StyledMDBTitle = styled(MDBCardTitle)`
     text-align: center;
     text-transform: uppercase;
+    font-size: 1.7rem;
 
-    @media screen and (min-width: 600px) {
-        font-size: 2rem;
+    @media screen and (max-width: 599px) {
+        font-size: 1.4rem;
     }
 
     @media screen and (min-width: 900px) {
-        font-size: 3rem;
+        
     }
 `
 
 export const StyledMDBText = styled(MDBCardText)`
-    @media screen and (min-width: 600px) {
-        font-size: 2rem;
+    font-size: 1.4rem;
+
+    @media screen and (max-width: 599px) {
+        font-size: 1.2rem;
     }
 
     @media screen and (min-width: 900px) {
-        font-size: 2.5rem;
+        
     }
 `
 
@@ -64,20 +45,22 @@ export const StyledDiv = styled.div`
 export const StyledButton = styled.button`
     background: green;
     border: 0;
-    font-size: 1.2rem;
+    font-size: 1.5em;
     color: white;
     width: 35%;
+    transition: .3s all ease-in-out;
 
     &:hover {
-        background: darkgreen; 
+        background: darkgreen;
+        transition: .3s all ease-in-out;
     }
 
     @media screen and (min-width: 600px) {
-        font-size: 1.6rem;
+        
     }
 
     @media screen and (min-width: 900px) {
-        font-size: 2rem;
+        
     }
 `
 

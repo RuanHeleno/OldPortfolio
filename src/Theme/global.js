@@ -1,49 +1,25 @@
 import { createGlobalStyle } from 'styled-components';
  
 const GlobalStyle = createGlobalStyle`
-  *,
-  *::after,
-  *::before {
+  body, html {
     box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
   }
 
   body {
-    overflow: auto;
-    background: #FAF0E6;
-    color: black;
-    font-size: 20px;
-    height: 100vh;
-    width: 100vw;
-    margin: 0;
-    padding: 0;
+    overflow-x: hidden;
+    background: #082032;
+    color: white;
     font-family: Tahoma, Arial, sans-serif;
     transition: all 0.25s linear;
+    animation-duration: 2s;
   }
 
-  .Menu {
-    background: #FFE4C4;
-  }
-
-  .black-content {
-    background: #1C1C1C;
-    color: white;
-
-    .ToggleMenu {
-      background: white;
-    }
-    
-    .Menu, .Cards {
-      background: #363636;
-    }
-
-    .Links {
-        color: #FFF;
-
-        &:hover {
-          transition: .2s all ease-in-out;
-          color: darkgray;
-      }
-    }
+  * {
+    box-sizing: inherit;
   }
 `;
 

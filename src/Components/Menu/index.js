@@ -1,39 +1,20 @@
-import React, { useState } from 'react';
-import { bool, func } from 'prop-types';
+import React from 'react';
 
-import { StyledMenu  } from './style';
-import { ThemeContext, themes } from '../../Theme/themeContext';
-import Photo from '../Photo';
+import { StyledMenu, StyledLogo } from './style';
 import Buttons from '../Buttons';
-import ToggleDark from '../ToggleDark';
 import SocialLinks from '../Social';
 
-export default function Menu({ open}) {
-    const [darkMode, setDarkMode] = useState(false);
-    
+export default function Menu() {
     return (
-        <StyledMenu className="Menu" open={open}>
-            <center>
-                <Photo />
-                <Buttons/>
-                <ThemeContext.Consumer>
-                    {({ changeTheme }) => (
-                        <ToggleDark
-                            toggleDark={() => {
-                                setDarkMode(!darkMode);
-                                changeTheme(darkMode ? themes.dark : themes.light);
-                            }}
-                        />
-                    )}
-                </ThemeContext.Consumer>
-            </center>
+        <>
+            <StyledMenu className="container-fluid animate__animated animate__fadeIn" 
+            style={{ padding: '0px' }}>
+                <div className="row">
+                    <div className="col ms-2"> <StyledLogo /> </div>
+                    <div className="col me-sl-5 me-xl-5 mt-2"> <Buttons /> </div>
+                </div>
+            </StyledMenu>
             <SocialLinks />
-        </StyledMenu>
+        </>
     );
 }
-
-Menu.propTypes = {
-    open: bool.isRequired,
-    darkMode: bool.isRequired,
-    setDarkMode: func.isRequired
-  };

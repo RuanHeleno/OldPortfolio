@@ -1,86 +1,26 @@
 import styled from 'styled-components';
 
 export const StyledDiv = styled.div`
-    position: relative;
-    text-align: center;
+    position: fixed;
+    left: 1px;
+    margin-top: 10%;
+    z-index: 9;
+    display: flex;
+    flex-direction: column;
 
     @media screen and (max-width: 599px) {
-        bottom: 0;
+       margin-top: 20%;
     }
-
-    @media screen and (min-width: 600px) { 
-        bottom: 0;
-        margin: 0 auto;
-
-        span {
-            font-size: 1.2rem;
-        }
-
-        .social {
-            width: auto;
-            height: 2rem;
-        }
-    }
-
-    @media screen and (min-width: 900px) {
-        bottom: 0;
-        margin: 0 2%;
-
-        span {
-            font-size: 2rem;
-        }
-
-        .social {
-            width: auto;
-            height: 3rem;
-        }
-    }
-
-    @media screen and (min-width: 1200px) {
-        bottom: 0;
-        margin: 0 2%;
-
-        span {
-            font-size: 1.5rem;
-        }
-
-        .social {
-            width: auto;
-            height: 2rem;
-        }
-    }
-
-    @media screen and (min-width: 1800px) { 
-        bottom: 0;
-        margin: 0 2%;
-
-        span {
-            font-size: 2rem;
-        }
-
-        .social {
-            width: auto;
-            height: 3rem;
-        }
-    }
-`
+`;
 
 export const StyledSocialLinks = styled.a`
-    margin-right: 3%;
     cursor: pointer;
     color: inherit;
+    background: #2C394BBF;
+    transition: .3s all ease-in-out;
 
     &:hover {
-        color: inherit;
+        color: gray;
+        transition: .3s all ease-in-out;
     }
-`
-
-export const StyledGitHub = styled.a`
-    cursor: pointer;
-    color: blue;
-    text-decoration: none;
-
-    &:hover {
-        color: darkblue;
-    }
-`
+`;

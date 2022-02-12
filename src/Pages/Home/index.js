@@ -8,8 +8,8 @@ import {
 
 export default function Home() {
   return (
-    <StyledHome className="animate__animated animate__fadeIn">
-      <StyledHead>
+    <StyledHome id="home">
+      <StyledHead className="animate__animated animate__fadeIn">
         Bem-vindos, eu sou Ruan Heleno!  <br />
         <Typewriter
           options={{

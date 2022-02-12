@@ -1,29 +1,33 @@
 import React from 'react';
-import { IoHome } from "react-icons/io5";
-import { SiAboutdotme } from "react-icons/si";
-import { MdOutlineComputer } from "react-icons/md";
-import { FaNewspaper } from "react-icons/fa";
-import { IoMdContact } from "react-icons/io";
 
-import { StyledDiv, StyledLink } from './style';
+
+import { 
+    StyledDiv, 
+    StyledLink,
+    StyledHomeI,
+    StyledAboutMeI,
+    StyledSkillsI,
+    StyledProjectsI,
+    StyledContactI
+} from './style';
 
 export default function Buttons() {
     return (
         <StyledDiv>
-            <StyledLink className="Links" to="/">
-                <IoHome size={30} /> <span style={{marginLeft: "5%"}}>Inicio</span> 
+            <StyledLink smooth to="#home" className="Links">
+                <StyledHomeI className="me-2" /><span className="me-3">Inicio</span> 
             </StyledLink> 
-            <StyledLink className="Links" to="/AboutMe">
-                <SiAboutdotme size={30} /> <span style={{marginLeft: "5%"}}>Sobre Mim</span> 
+            <StyledLink smooth to="#aboutMe" className="Links">
+                <StyledAboutMeI className="me-2" /><span className="me-3 text-nowrap">Sobre mim</span> 
             </StyledLink>
-            <StyledLink className="Links" to="/Skills">
-                <MdOutlineComputer size={30} /> <span style={{marginLeft: "5%"}}>Habilidades</span> 
+            <StyledLink smooth to="#skills" className="Links">
+                <StyledSkillsI className="me-2" /><span className="me-3">Habilidades</span> 
             </StyledLink>
-            <StyledLink className="Links" to="/Projects">
-                <FaNewspaper size={30} />  <span style={{marginLeft: "5%"}}>Projetos</span> 
+            <StyledLink smooth to="#projects" className="Links">
+                <StyledProjectsI className="me-2" /><span className="me-3">Projetos</span> 
             </StyledLink>
-            <StyledLink className="Links" to="/Contact">
-                <IoMdContact size={30} />  <span style={{marginLeft: "5%"}}>Contato</span> 
+            <StyledLink smooth to="#contact" className="Links">
+                <StyledContactI /><span>Contato</span> 
             </StyledLink>
         </StyledDiv>
     );
