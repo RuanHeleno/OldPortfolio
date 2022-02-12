@@ -11,7 +11,6 @@ export const StyledHome = styled.div`
 `
 
 export const StyledHead = styled.h1`
-    font-size: 2.5rem;
     margin: 0 auto;
 
     span {
@@ -22,5 +21,13 @@ export const StyledHead = styled.h1`
     @media screen and (max-width: 599px) {
         text-align: center;
         font-size: 2.3rem;
+    }
+
+    @media screen and (min-width: 600px) {
+        font-size: 2.3rem;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 2.5rem;
     }
 `

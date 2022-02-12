@@ -20,7 +20,7 @@ export default function Cards() {
     return (
         <StyledContent className="animate__animated animate__fadeIn container-fluid">
             <div className="row mt-5">
-                <div className="col-sm col-md-12 col-sl-6 col-xl-6">
+                <div className="col-sm-12 col-md-12 col-sl-12 col-xl-6">
                     <StyledMDBCard className="Cards">
                         <MDBCardImage src={Curriculum} fluid alt='Currículo de Ruan Heleno' />
                         <MDBCardBody>
@@ -39,7 +39,7 @@ export default function Cards() {
                         </MDBCardBody>
                     </StyledMDBCard>
                 </div>
-                <div className="col-sm col-md-12 col-sl-6 col-xl-6">
+                <div className="col-sm-12 col-md-12 col-sl-12 col-xl-6">
                     <StyledMDBCard className="Cards">
                         <MDBCardImage src={ProjectCovid19} fluid alt='Vírus da Covid 19' />
                         <MDBCardBody>
@@ -58,7 +58,7 @@ export default function Cards() {
                         </MDBCardBody>
                     </StyledMDBCard>
                 </div>
-                <div className="col-sm col-md-12 col-sl-6 col-xl-6">
+                <div className="col-sm-12 col-md-12 col-sl-12 col-xl-6">
                     <StyledMDBCard className="Cards">
                         <MDBCardImage src={GithubSearchProfile} fluid alt='Perfil buscado no Github' />
                         <MDBCardBody>
@@ -77,7 +77,7 @@ export default function Cards() {
                         </MDBCardBody>
                     </StyledMDBCard>
                 </div>
-                <div className="col-sm col-md-12 col-sl-6 col-xl-6">
+                <div className="col-sm-12 col-md-12 col-sl-6 col-xl-6">
                     <StyledMDBCard className="Cards">
                         <MDBCardImage src={RescueGame} fluid alt='Jogo de Helicóptero com o objetivo de resgatar os prisioneiros' />
                         <MDBCardBody>
@@ -96,7 +96,7 @@ export default function Cards() {
                         </MDBCardBody>
                     </StyledMDBCard>
                 </div>
-                <div className="col-sm col-md-12 col-sl-6 col-xl-6">
+                <div className="col-sm-12 col-md-12 col-sl-6 col-xl-6">
                     <StyledMDBCard className="Cards">
                         <MDBCardImage src={CartShopping} fluid alt='Loja de Camisas de time com Carrinho' />
                         <MDBCardBody>

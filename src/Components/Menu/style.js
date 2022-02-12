@@ -7,32 +7,40 @@ export const StyledMenu = styled.nav`
     z-index: 9;
     width: 100vw;
     background: #2C394BBF;
-    height: 8vh;
 
     @media screen and (max-width: 599px) {
+        height: 6vh;
         flex-direction: column;
     }
 
     @media screen and (min-width: 600px) { 
-        
-    }
-
-    @media screen and (min-width: 900px) { 
-       
+        height: 10vh;
     }
 
     @media screen and (min-width: 1200px) { 
-        
+        height: 8vh;
     }
 `;
 
 export const StyledLogo = styled.img`
-    width: 25%;
-    margin-top: -4%;
-
     @media screen and (max-width: 599px) {
-       width: 60%;
+       width: 60%;              
        margin-top: -9%;
+    }
+
+    @media screen and (min-width: 600px) { 
+        width: 58%;
+        margin-top: -8.5%;
+    }
+
+    @media screen and (min-width: 900px) { 
+        width: 45%;
+        margin-top: -8%;
+    }
+
+    @media screen and (min-width: 1200px) { 
+        width: 30%;
+        margin-top: -6%;
     }
 `;
 

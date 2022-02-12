@@ -70,10 +70,10 @@ export default function Skills() {
         </div>
       </div>
       <StyledSkillsBar className="animate__animated animate__fadeIn row mt-5"> 
-        <div className="col-sm-1 col-md-12 col-sl col-xl">
+        <div className="col-sm-12 col-md-12 col-sl col-xl">
           <SkillBars skills={skillsData} flat duration={1} levelProgress />
         </div>
-        <div className="col-sm col-md col-sl col-xl mb-5">
+        <div className="col-sm-12 col-md-12 col-sl col-xl mb-5">
           <SkillBars skills={skillsData2} flat duration={1} levelProgress />
         </div>
       </StyledSkillsBar>

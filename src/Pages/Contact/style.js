@@ -28,7 +28,15 @@ export const StyledContact = styled.div`
         }
 
         @media screen and (min-width: 600px) {
-            
+            width: 50%;
+            height: 20%;
+            margin-bottom: 2%;
+        }
+
+        @media screen and (min-width: 1200px) {
+            width: 20%;
+            height: 70%;
+            margin-bottom: 2%;
         }
     }
       
@@ -51,11 +59,6 @@ export const StyledContact = styled.div`
             width: 100%;
             border: none;
         }
-
-        @media screen and (min-width: 600px) {
-            
-            
-        }
     }
 
     .button p {
@@ -64,10 +67,6 @@ export const StyledContact = styled.div`
 
         @media screen and (max-width: 599px) {
             display: none;
-        }
-
-        @media screen and (min-width: 600px) {
-            
         }
     }
 
@@ -98,7 +97,7 @@ export const StyledTitle = styled.h1`
     }
 
     @media screen and (min-width: 900px) {
-        
+        font-size: 2rem;
     }
 `
 

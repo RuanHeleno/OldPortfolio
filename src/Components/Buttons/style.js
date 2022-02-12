@@ -8,15 +8,14 @@ import { FaNewspaper } from "react-icons/fa";
 import { IoMdContact } from "react-icons/io";
 
 export const StyledDiv = styled.div `
-    
     font-family: EB Garamond;
-    
-    @media screen and (min-width: 600px) { 
-        
-    }
 
-    @media screen and (min-width: 900px) { 
-       
+    @media screen and (min-width: 900px) {
+        margin-top: 1%;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        margin-top: -1%;
     }
 `
 
@@ -31,26 +30,17 @@ export const StyledLink = styled(Link)`
     }
 
     @media screen and (max-width: 599px) {
-        
         span {
             display: none;
         }
     }
 
     @media screen and (min-width: 600px) { 
-        
+        font-size: 1.3rem;
     }
 
     @media screen and (min-width: 900px) {
-        
-    }
-
-    @media screen and (min-width: 1200px) {
-        
-    }
-
-    @media screen and (min-width: 1800px) { 
-        
+        font-size: 1.9rem;
     }
 `;
 

@@ -27,7 +27,7 @@ export default function Buttons() {
                 <StyledProjectsI className="me-2" /><span className="me-3">Projetos</span> 
             </StyledLink>
             <StyledLink smooth to="#contact" className="Links">
-                <StyledContactI /><span>Contato</span> 
+                <StyledContactI /><span className="me-3">Contato</span> 
             </StyledLink>
         </StyledDiv>
     );
