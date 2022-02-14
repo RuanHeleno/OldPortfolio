@@ -15,6 +15,7 @@ import ProjectCovid19 from '../../Assets/Images/Projects/Covid19inWorld.png';
 import GithubSearchProfile from '../../Assets/Images/Projects/GithubSearchProfile.png';
 import RescueGame from '../../Assets/Images/Projects/RescueGame.png';
 import CartShopping from '../../Assets/Images/Projects/CartShopping.png';
+import FrontEndMentor from '../../Assets/Images/Projects/FrontEndMentor.png';
 
 export default function Cards() {
     return (
@@ -110,6 +111,25 @@ export default function Cards() {
                                 </StyledButton>
                                 <StyledButton>
                                     <StyledLink href='https://cartshoppingsystem.netlify.app' target="_blank" rel="noreferrer">Demo</StyledLink>
+                                </StyledButton>
+                            </StyledDiv>
+                        </MDBCardBody>
+                    </StyledMDBCard>
+                </div>
+                <div className="col-sm-12 col-md-12 col-sl-6 col-xl-6">
+                    <StyledMDBCard className="Cards">
+                        <MDBCardImage src={FrontEndMentor} fluid alt='Site inicial com botões para desafios de Front End' />
+                        <MDBCardBody>
+                            <StyledMDBTitle>Desafios do FrontendMentor</StyledMDBTitle>
+                            <StyledMDBText>
+                                Homepage separando e ordenando os desafios do FrontEndMentor.
+                            </StyledMDBText>
+                            <StyledDiv>
+                                <StyledButton>
+                                    <StyledLink href='https://github.com/RuanHeleno/FrontEndMentor' target="_blank" rel="noreferrer">Github</StyledLink>
+                                </StyledButton>
+                                <StyledButton>
+                                    <StyledLink href='https://frontendmentorchallengesrh.netlify.app' target="_blank" rel="noreferrer">Demo</StyledLink>
                                 </StyledButton>
                             </StyledDiv>
                         </MDBCardBody>
