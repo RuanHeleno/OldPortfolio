@@ -2,7 +2,7 @@
   :memo:<br>Meu Portfólio
 </h1>
 
-![Resultado final do projeto](./Assets/Images/preview.png)
+![Resultado final do projeto](./src//Assets/Images/preview.png)
 
 <h4 align="center"><a href="https://ruanheleno.github.io/">Clique aqui ver meu portfolio</a></h4>
 
