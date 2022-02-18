@@ -8,7 +8,7 @@
 
 ## :notebook: Seções
 
-O site é composto por 4 seções diferentes:
+O site é composto por 5 seções diferentes:
 
 - **Inicio:** São as boas vindas mostrando meus conhecimentos;
 - **Sobre mim:** Possui uma breve descrição sobre minha vida;
