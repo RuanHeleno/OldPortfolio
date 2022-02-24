@@ -10,12 +10,8 @@ import { IoMdContact } from "react-icons/io";
 export const StyledDiv = styled.div `
     font-family: EB Garamond;
 
-    @media screen and (min-width: 900px) {
-        margin-top: 1%;
-    }
-    
-    @media screen and (min-width: 1200px) {
-        margin-top: -1%;
+    .col {
+        padding: 0px !important;
     }
 `
 
@@ -34,9 +30,9 @@ export const StyledLink = styled(Link)`
             display: none;
         }
     }
-
-    @media screen and (min-width: 600px) { 
-        font-size: 1.3rem;
+    
+    @media screen and (min-width: 600px) and (max-width: 899px) { 
+        font-size: 1.3em;
     }
 
     @media screen and (min-width: 900px) {
@@ -45,7 +41,7 @@ export const StyledLink = styled(Link)`
 `;
 
 export const StyledHomeI = styled(IoHome)`
-    font-size: 1.5rem; 
+    font-size: 2rem; 
 
     @media screen and (min-width: 600px) {
         display: none; 
@@ -53,7 +49,7 @@ export const StyledHomeI = styled(IoHome)`
 `;
 
 export const StyledAboutMeI = styled(SiAboutdotme)`
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     @media screen and (min-width: 600px) { 
         display: none; 
@@ -61,7 +57,7 @@ export const StyledAboutMeI = styled(SiAboutdotme)`
 `;
 
 export const StyledSkillsI = styled(MdOutlineComputer)`
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     @media screen and (min-width: 600px) { 
         display: none; 
@@ -69,7 +65,7 @@ export const StyledSkillsI = styled(MdOutlineComputer)`
 `;
 
 export const StyledProjectsI= styled(FaNewspaper)`
-    font-size: 1.5rem;
+    font-size: 2rem;
 
     @media screen and (min-width: 600px) { 
         display: none; 
@@ -77,7 +73,7 @@ export const StyledProjectsI= styled(FaNewspaper)`
 `;
 
 export const StyledContactI = styled(IoMdContact)`
-    font-size: 1.5rem;
+    font-size: 2rem;
     
     @media screen and (min-width: 600px) { 
         display: none; 

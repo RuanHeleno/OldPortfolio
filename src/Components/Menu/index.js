@@ -11,7 +11,7 @@ export default function Menu() {
             style={{ padding: '0px' }}>
                 <div className="row">
                     <div className="col ms-2"> <StyledLogo /> </div>
-                    <div className="col me-sl-5 me-xl-5 mt-2"> <Buttons /> </div>
+                    <div className="col my-auto"> <Buttons /> </div>
                 </div>
             </StyledMenu>
             <SocialLinks />

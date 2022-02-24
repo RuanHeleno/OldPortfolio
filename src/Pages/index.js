@@ -15,12 +15,14 @@ export default function Page() {
         <Skills />
         <Projects />
         <Contact />
-        <StyledFooter className="mt-2 text-center">
-          <p>
-            &copy; Todos os direitos reservados. <br />
-            Desenvolvido por <a href="https://github.com/RuanHeleno">Ruan Heleno</a>
-          </p>
-          <StyledLogo />
+        <StyledFooter className="container-fluid text-center">
+          <div className="row">
+            <div className="col-11 mt-2">
+              &copy; Todos os direitos reservados. <br />
+              Desenvolvido por <a href="https://github.com/RuanHeleno">Ruan Heleno</a>
+            </div>
+            <div className="col mt-2 pb-2"> <StyledLogo /> </div>
+          </div>
         </StyledFooter>
     </div>
   );

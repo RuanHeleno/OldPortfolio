@@ -4,9 +4,10 @@ const GlobalStyle = createGlobalStyle`
   body, html {
     box-sizing: border-box;
     width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+    height: 100%;
+    max-width: 100vw !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   body {
