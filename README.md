@@ -1,34 +1,32 @@
 <h1 align="center">
-  :memo:<br>Meu Portfólio
+  My Portfolio
 </h1>
 
 ![Resultado final do projeto](./src//Assets/Images/preview.png)
 
-<h4 align="center"><a href="https://ruanheleno.github.io/">Clique aqui ver meu portfolio</a></h4>
-
 ## :notebook: Seções
 
-O site é composto por 5 seções diferentes:
+The site consists of 5 different sections:
 
-- **Inicio:** São as boas vindas mostrando meus conhecimentos;
-- **Sobre mim:** Possui uma breve descrição sobre minha vida;
-- **Habilidades:** Minhas habilidades baseadas em projetos já criados na área;
-- **Projetos:** Apresenta os projetos desenvolvidos até então e com link direto para os respectivos códigos no GitHub (em constante atualização);
-- **Contatos:** As formas de entrar em contato comigo e meu currículo;
-
----
-
-## :computer: Tecnologias utilizadas
-
-- HTM5;
-- CSS3;
-- JavaScript;
-- React.js;
-- Bootstrap 5;
+- **Inicio:** It is a welcome showing my knowledge;
+- **Sobre mim:** It has a brief description about my life;
+- **Habilidades:** My skills based on projects already created in the area;
+- **Projetos:** Presents the projects developed so far and with a direct link to the respective codes on GitHub (in constant update);
+- **Contatos:** Ways to contact me;
 
 ---
 
-## Autor<br>
+## :computer: Utilized Languages
+
+- [HTML5](https://www.w3schools.com/html/)
+- [CSS5](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [React.Js](https://reactjs.org)
+- [Bootstrap5](https://getbootstrap.com)
+
+---
+
+## :man: Author<br>
 
 <table>
   <tr>
@@ -44,3 +42,5 @@ O site é composto por 5 seções diferentes:
     </td>
   </tr>
 </table>
+
+<h4 align="center"><a href="https://ruanheleno.github.io/">Click here to see more</a></h4>
